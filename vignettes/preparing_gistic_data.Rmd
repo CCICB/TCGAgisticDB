@@ -1,0 +1,95 @@
+---
+title: "Prepariing GISTIC data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Prepariing GISTIC data}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+## Rationale
+
+This markdown describes how the datasets were prepared
+
+### Step 1: Create DF with paths to gistic files
+
+Goal: find the URLs of gistic files for the following cohorts
+```
+c("ACC", "BLCA", "BRCA", "CESC", "CHOL", "COADREAD", "COAD", 
+"DLBC", "ESCA", "FPPP", "GBMLGG", "GBM", "HNSC", "KICH", "KIPAN", 
+"KIRC", "KIRP", "LAML", "LGG", "LIHC", "LUAD", "LUSC", "MESO", 
+"OV", "PAAD", "PCPG", "PRAD", "READ", "SARC", "SKCM", "STAD", 
+"STES", "TGCT", "THCA", "THYM", "UCEC", "UCS", "UVM")
+```
+
+You can download all of these from firebrowse, but must know the tumor 'type' you're looking for (primary solid tissue / primary from blood /  metastatic. Most cohorts are primary tumour cohorts.
+
+```
+LAML  TB (primary tumor from blood)
+SKCM  #TM sample code (metastatic)
+```
+
+See  https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes for explanation of these types.
+
+Then we build based on the following
+
+```
+https://gdac.broadinstitute.org/runs/analyses__2016_01_28/data/{Cohort}-{Type}/20160128/gdac.broadinstitute.org_{Cohort}-{Type}.CopyNumber_Gistic2.Level_4.2016012800.0.0.tar.gz
+```
+
+
+
+```{r, eval = FALSE}
+dplyr::tibble(Cohort = c("ACC", "BLCA", "BRCA", "CESC", "CHOL", "COADREAD", "COAD", 
+  "DLBC", "ESCA", "GBMLGG", "GBM", "HNSC", "KICH", "KIPAN", 
+  "KIRC", "KIRP", "LAML", "LGG", "LIHC", "LUAD", "LUSC", "MESO", 
+  "OV", "PAAD", "PCPG", "PRAD", "READ", "SARC", "SKCM", "STAD", 
+  "STES", "TGCT", "THCA", "THYM", "UCEC", "UCS", "UVM")) |>
+  dplyr::mutate(
+    Type = dplyr::case_when(
+      Cohort == "LAML" ~ "TB", # primary tumor from blood
+      Cohort == "SKCM" ~ "TM", # metastatic
+      TRUE ~ "TP" # Primary Tumour
+      ),
+    URL = glue::glue("https://gdac.broadinstitute.org/runs/analyses__2016_01_28/data/{Cohort}-{Type}/20160128/gdac.broadinstitute.org_{Cohort}-{Type}.CopyNumber_Gistic2.Level_4.2016012800.0.0.tar.gz")
+    ) |> readr::write_csv(file = paste0(system.file(package = "TCGAgisticDB"), "/gistic_urls.csv"))
+
+  # http://gdac.broadinstitute.org/runs/analyses__2016_01_28/data/LAML-TB/20160128/gdac.broadinstitute.org_LAML-TB.CopyNumber_Gistic2.Level_4.2016012800.0.0.tar.gz
+```
+
+### Step 2: Download GISTIC data
+
+We used the unexported function `gistic_download_all_cohorts(destdir = system.file('gistic_raw/', package = "TCGAgisticDB"))` to download tar-zipped gistic outfiles for each available TCGA cohort from firebrowse.
+
+We download files from: https://gdac.broadinstitute.org/runs/analyses__latest/data/
+
+Specifically we download `gdac.broadinstitute.org_<cohort>-TP.CopyNumber_Gistic2.Level_4.<analsis_date>.0.0.tar.gz`
+
+```{r, eval=FALSE}
+gistic_download_all_cohorts(destdir = system.file('gistic_raw/', package = "TCGAgisticDB"))
+```
+
+
+
+Then we use `interchange::gistic_tar_to_crux()` on each download to produce our Rds files. We produce 1 for each setting (deep/shallow/all).
+
+```{r, eval=FALSE}
+cnlevels <- c('all', 'shallow', 'deep')
+
+gistic_tar_to_crux(gistic_tar = "path_to_tarzip", isTCGA = TRUE, cnLevel = "all")
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+
+
