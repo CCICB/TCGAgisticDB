@@ -8,14 +8,10 @@ cohorts <- function(){
 
 gistic_paths <- function(){
   path_gistic_urls <- system.file("gistic_urls.csv", package = "TCGAgisticDB")
-  read.csv(path_gistic_urls, header = TRUE, check.names = FALSE)
+  utils::read.csv(path_gistic_urls, header = TRUE, check.names = FALSE)
 }
 
-#' Download gistic ZIPfiles from filrebrowse
-#'
-#' @param cohort
-#' @param destdir
-#'
+# Download gistic ZIPfiles from firebrowse
 gistic_download <- function(cohort, destdir){
 
   df_gistic_urls <- gistic_paths()
@@ -37,7 +33,7 @@ gistic_download <- function(cohort, destdir){
 
   # Download data
   message("Downloading ", cohort, " GISTIC2 files to \n", destfile, "\n\n")
-  download.file(url = url, destfile = destfile)
+  utils::download.file(url = url, destfile = destfile)
 }
 
 gistic_download_all_cohorts <- function(destdir){

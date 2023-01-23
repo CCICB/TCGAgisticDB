@@ -1,5 +1,5 @@
 Package: TCGAgisticDB
-Title: What the Package Does (One Line, Title Case)
+Title: Database of TCGA precomputed GISTIC2 analysis 
 Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "El-Kamand", , "selkamand@ccia.org.au", role = c("aut", "cre"),
@@ -17,3 +17,5 @@ RoxygenNote: 7.2.1
 VignetteBuilder: knitr
 URL: https://github.com/CCICB/TCGAgisticDB
 BugReports: https://github.com/CCICB/TCGAgisticDB/issues
+Imports: 
+    utils

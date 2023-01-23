@@ -123,7 +123,7 @@ for (i in seq_len(nrow(df_outfile_info))){
 Then we just create a csv that maps cohort to RDS file
 
 ```{r, eval=FALSE}
-df_studynames <- read.csv(system.file("tcga_study_abbreviations.csv", package = "TCGAgisticDB"), strip.white = TRUE)
+df_studynames <- utils::read.csv(system.file("tcga_study_abbreviations.csv", package = "TCGAgisticDB"), strip.white = TRUE)
 
 outfile_dir = paste0(system.file("gistic_rds", package = "TCGAgisticDB"), "/")
 
