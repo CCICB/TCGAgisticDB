@@ -1,111 +1,111 @@
-Cohort,FullName,Source,CopyNumberLevel,Filepath
-ACC,Adrenocortical carcinoma,TCGA,all,ACC_TCGA.cnlevel_all.rds
-ACC,Adrenocortical carcinoma,TCGA,deep,ACC_TCGA.cnlevel_deep.rds
-ACC,Adrenocortical carcinoma,TCGA,shallow,ACC_TCGA.cnlevel_shallow.rds
-BLCA,Bladder urothelial carcinoma,TCGA,all,BLCA_TCGA.cnlevel_all.rds
-BLCA,Bladder urothelial carcinoma,TCGA,deep,BLCA_TCGA.cnlevel_deep.rds
-BLCA,Bladder urothelial carcinoma,TCGA,shallow,BLCA_TCGA.cnlevel_shallow.rds
-BRCA,Breast invasive carcinoma,TCGA,all,BRCA_TCGA.cnlevel_all.rds
-BRCA,Breast invasive carcinoma,TCGA,deep,BRCA_TCGA.cnlevel_deep.rds
-BRCA,Breast invasive carcinoma,TCGA,shallow,BRCA_TCGA.cnlevel_shallow.rds
-CESC,Cervical and endocervical cancers,TCGA,all,CESC_TCGA.cnlevel_all.rds
-CESC,Cervical and endocervical cancers,TCGA,deep,CESC_TCGA.cnlevel_deep.rds
-CESC,Cervical and endocervical cancers,TCGA,shallow,CESC_TCGA.cnlevel_shallow.rds
-CHOL,Cholangiocarcinoma,TCGA,all,CHOL_TCGA.cnlevel_all.rds
-CHOL,Cholangiocarcinoma,TCGA,deep,CHOL_TCGA.cnlevel_deep.rds
-CHOL,Cholangiocarcinoma,TCGA,shallow,CHOL_TCGA.cnlevel_shallow.rds
-COAD,Colon adenocarcinoma,TCGA,all,COAD_TCGA.cnlevel_all.rds
-COAD,Colon adenocarcinoma,TCGA,deep,COAD_TCGA.cnlevel_deep.rds
-COAD,Colon adenocarcinoma,TCGA,shallow,COAD_TCGA.cnlevel_shallow.rds
-COADREAD,Colorectal adenocarcinoma,TCGA,all,COADREAD_TCGA.cnlevel_all.rds
-COADREAD,Colorectal adenocarcinoma,TCGA,deep,COADREAD_TCGA.cnlevel_deep.rds
-COADREAD,Colorectal adenocarcinoma,TCGA,shallow,COADREAD_TCGA.cnlevel_shallow.rds
-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,all,DLBC_TCGA.cnlevel_all.rds
-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,deep,DLBC_TCGA.cnlevel_deep.rds
-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,shallow,DLBC_TCGA.cnlevel_shallow.rds
-ESCA,Esophageal carcinoma,TCGA,all,ESCA_TCGA.cnlevel_all.rds
-ESCA,Esophageal carcinoma,TCGA,deep,ESCA_TCGA.cnlevel_deep.rds
-ESCA,Esophageal carcinoma,TCGA,shallow,ESCA_TCGA.cnlevel_shallow.rds
-GBM,Glioblastoma multiforme,TCGA,all,GBM_TCGA.cnlevel_all.rds
-GBM,Glioblastoma multiforme,TCGA,deep,GBM_TCGA.cnlevel_deep.rds
-GBM,Glioblastoma multiforme,TCGA,shallow,GBM_TCGA.cnlevel_shallow.rds
-GBMLGG,Glioma,TCGA,all,GBMLGG_TCGA.cnlevel_all.rds
-GBMLGG,Glioma,TCGA,deep,GBMLGG_TCGA.cnlevel_deep.rds
-GBMLGG,Glioma,TCGA,shallow,GBMLGG_TCGA.cnlevel_shallow.rds
-HNSC,Head and Neck squamous cell carcinoma,TCGA,all,HNSC_TCGA.cnlevel_all.rds
-HNSC,Head and Neck squamous cell carcinoma,TCGA,deep,HNSC_TCGA.cnlevel_deep.rds
-HNSC,Head and Neck squamous cell carcinoma,TCGA,shallow,HNSC_TCGA.cnlevel_shallow.rds
-KICH,Kidney Chromophobe,TCGA,all,KICH_TCGA.cnlevel_all.rds
-KICH,Kidney Chromophobe,TCGA,deep,KICH_TCGA.cnlevel_deep.rds
-KICH,Kidney Chromophobe,TCGA,shallow,KICH_TCGA.cnlevel_shallow.rds
-KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,all,KIPAN_TCGA.cnlevel_all.rds
-KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,deep,KIPAN_TCGA.cnlevel_deep.rds
-KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,shallow,KIPAN_TCGA.cnlevel_shallow.rds
-KIRC,Kidney renal clear cell carcinoma,TCGA,all,KIRC_TCGA.cnlevel_all.rds
-KIRC,Kidney renal clear cell carcinoma,TCGA,deep,KIRC_TCGA.cnlevel_deep.rds
-KIRC,Kidney renal clear cell carcinoma,TCGA,shallow,KIRC_TCGA.cnlevel_shallow.rds
-KIRP,Kidney renal papillary cell carcinoma,TCGA,all,KIRP_TCGA.cnlevel_all.rds
-KIRP,Kidney renal papillary cell carcinoma,TCGA,deep,KIRP_TCGA.cnlevel_deep.rds
-KIRP,Kidney renal papillary cell carcinoma,TCGA,shallow,KIRP_TCGA.cnlevel_shallow.rds
-LAML,Acute Myeloid Leukemia,TCGA,all,LAML_TCGA.cnlevel_all.rds
-LAML,Acute Myeloid Leukemia,TCGA,deep,LAML_TCGA.cnlevel_deep.rds
-LAML,Acute Myeloid Leukemia,TCGA,shallow,LAML_TCGA.cnlevel_shallow.rds
-LGG,Brain Lower Grade Glioma,TCGA,all,LGG_TCGA.cnlevel_all.rds
-LGG,Brain Lower Grade Glioma,TCGA,deep,LGG_TCGA.cnlevel_deep.rds
-LGG,Brain Lower Grade Glioma,TCGA,shallow,LGG_TCGA.cnlevel_shallow.rds
-LIHC,Liver hepatocellular carcinoma,TCGA,all,LIHC_TCGA.cnlevel_all.rds
-LIHC,Liver hepatocellular carcinoma,TCGA,deep,LIHC_TCGA.cnlevel_deep.rds
-LIHC,Liver hepatocellular carcinoma,TCGA,shallow,LIHC_TCGA.cnlevel_shallow.rds
-LUAD,Lung adenocarcinoma,TCGA,all,LUAD_TCGA.cnlevel_all.rds
-LUAD,Lung adenocarcinoma,TCGA,deep,LUAD_TCGA.cnlevel_deep.rds
-LUAD,Lung adenocarcinoma,TCGA,shallow,LUAD_TCGA.cnlevel_shallow.rds
-LUSC,Lung squamous cell carcinoma,TCGA,all,LUSC_TCGA.cnlevel_all.rds
-LUSC,Lung squamous cell carcinoma,TCGA,deep,LUSC_TCGA.cnlevel_deep.rds
-LUSC,Lung squamous cell carcinoma,TCGA,shallow,LUSC_TCGA.cnlevel_shallow.rds
-MESO,Mesothelioma,TCGA,all,MESO_TCGA.cnlevel_all.rds
-MESO,Mesothelioma,TCGA,shallow,MESO_TCGA.cnlevel_shallow.rds
-OV,Ovarian serous cystadenocarcinoma,TCGA,all,OV_TCGA.cnlevel_all.rds
-OV,Ovarian serous cystadenocarcinoma,TCGA,deep,OV_TCGA.cnlevel_deep.rds
-OV,Ovarian serous cystadenocarcinoma,TCGA,shallow,OV_TCGA.cnlevel_shallow.rds
-PAAD,Pancreatic adenocarcinoma,TCGA,all,PAAD_TCGA.cnlevel_all.rds
-PAAD,Pancreatic adenocarcinoma,TCGA,deep,PAAD_TCGA.cnlevel_deep.rds
-PAAD,Pancreatic adenocarcinoma,TCGA,shallow,PAAD_TCGA.cnlevel_shallow.rds
-PCPG,Pheochromocytoma and Paraganglioma,TCGA,all,PCPG_TCGA.cnlevel_all.rds
-PCPG,Pheochromocytoma and Paraganglioma,TCGA,deep,PCPG_TCGA.cnlevel_deep.rds
-PCPG,Pheochromocytoma and Paraganglioma,TCGA,shallow,PCPG_TCGA.cnlevel_shallow.rds
-PRAD,Prostate adenocarcinoma,TCGA,all,PRAD_TCGA.cnlevel_all.rds
-PRAD,Prostate adenocarcinoma,TCGA,deep,PRAD_TCGA.cnlevel_deep.rds
-PRAD,Prostate adenocarcinoma,TCGA,shallow,PRAD_TCGA.cnlevel_shallow.rds
-READ,Rectum adenocarcinoma,TCGA,all,READ_TCGA.cnlevel_all.rds
-READ,Rectum adenocarcinoma,TCGA,deep,READ_TCGA.cnlevel_deep.rds
-READ,Rectum adenocarcinoma,TCGA,shallow,READ_TCGA.cnlevel_shallow.rds
-SARC,Sarcoma,TCGA,all,SARC_TCGA.cnlevel_all.rds
-SARC,Sarcoma,TCGA,deep,SARC_TCGA.cnlevel_deep.rds
-SARC,Sarcoma,TCGA,shallow,SARC_TCGA.cnlevel_shallow.rds
-SKCM,Skin Cutaneous Melanoma,TCGA,all,SKCM_TCGA.cnlevel_all.rds
-SKCM,Skin Cutaneous Melanoma,TCGA,deep,SKCM_TCGA.cnlevel_deep.rds
-SKCM,Skin Cutaneous Melanoma,TCGA,shallow,SKCM_TCGA.cnlevel_shallow.rds
-STAD,Stomach adenocarcinoma,TCGA,all,STAD_TCGA.cnlevel_all.rds
-STAD,Stomach adenocarcinoma,TCGA,deep,STAD_TCGA.cnlevel_deep.rds
-STAD,Stomach adenocarcinoma,TCGA,shallow,STAD_TCGA.cnlevel_shallow.rds
-STES,Stomach and Esophageal carcinoma,TCGA,all,STES_TCGA.cnlevel_all.rds
-STES,Stomach and Esophageal carcinoma,TCGA,deep,STES_TCGA.cnlevel_deep.rds
-STES,Stomach and Esophageal carcinoma,TCGA,shallow,STES_TCGA.cnlevel_shallow.rds
-TGCT,Testicular Germ Cell Tumors,TCGA,all,TGCT_TCGA.cnlevel_all.rds
-TGCT,Testicular Germ Cell Tumors,TCGA,deep,TGCT_TCGA.cnlevel_deep.rds
-TGCT,Testicular Germ Cell Tumors,TCGA,shallow,TGCT_TCGA.cnlevel_shallow.rds
-THCA,Thyroid carcinoma,TCGA,all,THCA_TCGA.cnlevel_all.rds
-THCA,Thyroid carcinoma,TCGA,deep,THCA_TCGA.cnlevel_deep.rds
-THCA,Thyroid carcinoma,TCGA,shallow,THCA_TCGA.cnlevel_shallow.rds
-THYM,Thymoma,TCGA,all,THYM_TCGA.cnlevel_all.rds
-THYM,Thymoma,TCGA,deep,THYM_TCGA.cnlevel_deep.rds
-THYM,Thymoma,TCGA,shallow,THYM_TCGA.cnlevel_shallow.rds
-UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,all,UCEC_TCGA.cnlevel_all.rds
-UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,deep,UCEC_TCGA.cnlevel_deep.rds
-UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,shallow,UCEC_TCGA.cnlevel_shallow.rds
-UCS,Uterine Carcinosarcoma,TCGA,all,UCS_TCGA.cnlevel_all.rds
-UCS,Uterine Carcinosarcoma,TCGA,deep,UCS_TCGA.cnlevel_deep.rds
-UCS,Uterine Carcinosarcoma,TCGA,shallow,UCS_TCGA.cnlevel_shallow.rds
-UVM,Uveal Melanoma,TCGA,all,UVM_TCGA.cnlevel_all.rds
-UVM,Uveal Melanoma,TCGA,deep,UVM_TCGA.cnlevel_deep.rds
-UVM,Uveal Melanoma,TCGA,shallow,UVM_TCGA.cnlevel_shallow.rds
+Cohort,FullName,Source,CopyNumberLevel,Filepath,DOI
+ACC,Adrenocortical carcinoma,TCGA,all,ACC_TCGA.cnlevel_all.rds,10.7908/C1CN7372
+ACC,Adrenocortical carcinoma,TCGA,deep,ACC_TCGA.cnlevel_deep.rds,10.7908/C1CN7372
+ACC,Adrenocortical carcinoma,TCGA,shallow,ACC_TCGA.cnlevel_shallow.rds,10.7908/C1CN7372
+BLCA,Bladder urothelial carcinoma,TCGA,all,BLCA_TCGA.cnlevel_all.rds,10.7908/C16T0KXB
+BLCA,Bladder urothelial carcinoma,TCGA,deep,BLCA_TCGA.cnlevel_deep.rds,10.7908/C16T0KXB
+BLCA,Bladder urothelial carcinoma,TCGA,shallow,BLCA_TCGA.cnlevel_shallow.rds,10.7908/C16T0KXB
+BRCA,Breast invasive carcinoma,TCGA,all,BRCA_TCGA.cnlevel_all.rds,10.7908/C1NP23RQ
+BRCA,Breast invasive carcinoma,TCGA,deep,BRCA_TCGA.cnlevel_deep.rds,10.7908/C1NP23RQ
+BRCA,Breast invasive carcinoma,TCGA,shallow,BRCA_TCGA.cnlevel_shallow.rds,10.7908/C1NP23RQ
+CESC,Cervical and endocervical cancers,TCGA,all,CESC_TCGA.cnlevel_all.rds,10.7908/C16D5SCD
+CESC,Cervical and endocervical cancers,TCGA,deep,CESC_TCGA.cnlevel_deep.rds,10.7908/C16D5SCD
+CESC,Cervical and endocervical cancers,TCGA,shallow,CESC_TCGA.cnlevel_shallow.rds,10.7908/C16D5SCD
+CHOL,Cholangiocarcinoma,TCGA,all,CHOL_TCGA.cnlevel_all.rds,10.7908/C1S181WN
+CHOL,Cholangiocarcinoma,TCGA,deep,CHOL_TCGA.cnlevel_deep.rds,10.7908/C1S181WN
+CHOL,Cholangiocarcinoma,TCGA,shallow,CHOL_TCGA.cnlevel_shallow.rds,10.7908/C1S181WN
+COAD,Colon adenocarcinoma,TCGA,all,COAD_TCGA.cnlevel_all.rds,10.7908/C1M61JMS
+COAD,Colon adenocarcinoma,TCGA,deep,COAD_TCGA.cnlevel_deep.rds,10.7908/C1M61JMS
+COAD,Colon adenocarcinoma,TCGA,shallow,COAD_TCGA.cnlevel_shallow.rds,10.7908/C1M61JMS
+COADREAD,Colorectal adenocarcinoma,TCGA,all,COADREAD_TCGA.cnlevel_all.rds,10.7908/C1SJ1JZ8
+COADREAD,Colorectal adenocarcinoma,TCGA,deep,COADREAD_TCGA.cnlevel_deep.rds,10.7908/C1SJ1JZ8
+COADREAD,Colorectal adenocarcinoma,TCGA,shallow,COADREAD_TCGA.cnlevel_shallow.rds,10.7908/C1SJ1JZ8
+DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,all,DLBC_TCGA.cnlevel_all.rds,10.7908/C13R0S77
+DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,deep,DLBC_TCGA.cnlevel_deep.rds,10.7908/C13R0S77
+DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,TCGA,shallow,DLBC_TCGA.cnlevel_shallow.rds,10.7908/C13R0S77
+ESCA,Esophageal carcinoma,TCGA,all,ESCA_TCGA.cnlevel_all.rds,10.7908/C1XS5TQM
+ESCA,Esophageal carcinoma,TCGA,deep,ESCA_TCGA.cnlevel_deep.rds,10.7908/C1XS5TQM
+ESCA,Esophageal carcinoma,TCGA,shallow,ESCA_TCGA.cnlevel_shallow.rds,10.7908/C1XS5TQM
+GBM,Glioblastoma multiforme,TCGA,all,GBM_TCGA.cnlevel_all.rds,10.7908/C1HD7V19
+GBM,Glioblastoma multiforme,TCGA,deep,GBM_TCGA.cnlevel_deep.rds,10.7908/C1HD7V19
+GBM,Glioblastoma multiforme,TCGA,shallow,GBM_TCGA.cnlevel_shallow.rds,10.7908/C1HD7V19
+GBMLGG,Glioma,TCGA,all,GBMLGG_TCGA.cnlevel_all.rds,10.7908/C1K35T1N
+GBMLGG,Glioma,TCGA,deep,GBMLGG_TCGA.cnlevel_deep.rds,10.7908/C1K35T1N
+GBMLGG,Glioma,TCGA,shallow,GBMLGG_TCGA.cnlevel_shallow.rds,10.7908/C1K35T1N
+HNSC,Head and Neck squamous cell carcinoma,TCGA,all,HNSC_TCGA.cnlevel_all.rds,10.7908/C1V987FP
+HNSC,Head and Neck squamous cell carcinoma,TCGA,deep,HNSC_TCGA.cnlevel_deep.rds,10.7908/C1V987FP
+HNSC,Head and Neck squamous cell carcinoma,TCGA,shallow,HNSC_TCGA.cnlevel_shallow.rds,10.7908/C1V987FP
+KICH,Kidney Chromophobe,TCGA,all,KICH_TCGA.cnlevel_all.rds,10.7908/C1DZ07QR
+KICH,Kidney Chromophobe,TCGA,deep,KICH_TCGA.cnlevel_deep.rds,10.7908/C1DZ07QR
+KICH,Kidney Chromophobe,TCGA,shallow,KICH_TCGA.cnlevel_shallow.rds,10.7908/C1DZ07QR
+KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,all,KIPAN_TCGA.cnlevel_all.rds,10.7908/C1CR5SSS
+KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,deep,KIPAN_TCGA.cnlevel_deep.rds,10.7908/C1CR5SSS
+KIPAN,Pan-kidney cohort (KICH+KIRC+KIRP),TCGA,shallow,KIPAN_TCGA.cnlevel_shallow.rds,10.7908/C1CR5SSS
+KIRC,Kidney renal clear cell carcinoma,TCGA,all,KIRC_TCGA.cnlevel_all.rds,10.7908/C1FF3RRP
+KIRC,Kidney renal clear cell carcinoma,TCGA,deep,KIRC_TCGA.cnlevel_deep.rds,10.7908/C1FF3RRP
+KIRC,Kidney renal clear cell carcinoma,TCGA,shallow,KIRC_TCGA.cnlevel_shallow.rds,10.7908/C1FF3RRP
+KIRP,Kidney renal papillary cell carcinoma,TCGA,all,KIRP_TCGA.cnlevel_all.rds,10.7908/C1H41QVC
+KIRP,Kidney renal papillary cell carcinoma,TCGA,deep,KIRP_TCGA.cnlevel_deep.rds,10.7908/C1H41QVC
+KIRP,Kidney renal papillary cell carcinoma,TCGA,shallow,KIRP_TCGA.cnlevel_shallow.rds,10.7908/C1H41QVC
+LAML,Acute Myeloid Leukemia,TCGA,all,LAML_TCGA.cnlevel_all.rds,10.7908/C16H4GT5
+LAML,Acute Myeloid Leukemia,TCGA,deep,LAML_TCGA.cnlevel_deep.rds,10.7908/C16H4GT5
+LAML,Acute Myeloid Leukemia,TCGA,shallow,LAML_TCGA.cnlevel_shallow.rds,10.7908/C16H4GT5
+LGG,Brain Lower Grade Glioma,TCGA,all,LGG_TCGA.cnlevel_all.rds,10.7908/C12J6B7R
+LGG,Brain Lower Grade Glioma,TCGA,deep,LGG_TCGA.cnlevel_deep.rds,10.7908/C12J6B7R
+LGG,Brain Lower Grade Glioma,TCGA,shallow,LGG_TCGA.cnlevel_shallow.rds,10.7908/C12J6B7R
+LIHC,Liver hepatocellular carcinoma,TCGA,all,LIHC_TCGA.cnlevel_all.rds,10.7908/C1474990
+LIHC,Liver hepatocellular carcinoma,TCGA,deep,LIHC_TCGA.cnlevel_deep.rds,10.7908/C1474990
+LIHC,Liver hepatocellular carcinoma,TCGA,shallow,LIHC_TCGA.cnlevel_shallow.rds,10.7908/C1474990
+LUAD,Lung adenocarcinoma,TCGA,all,LUAD_TCGA.cnlevel_all.rds,10.7908/C1348JSB
+LUAD,Lung adenocarcinoma,TCGA,deep,LUAD_TCGA.cnlevel_deep.rds,10.7908/C1348JSB
+LUAD,Lung adenocarcinoma,TCGA,shallow,LUAD_TCGA.cnlevel_shallow.rds,10.7908/C1348JSB
+LUSC,Lung squamous cell carcinoma,TCGA,all,LUSC_TCGA.cnlevel_all.rds,10.7908/C1RJ4HX7
+LUSC,Lung squamous cell carcinoma,TCGA,deep,LUSC_TCGA.cnlevel_deep.rds,10.7908/C1RJ4HX7
+LUSC,Lung squamous cell carcinoma,TCGA,shallow,LUSC_TCGA.cnlevel_shallow.rds,10.7908/C1RJ4HX7
+MESO,Mesothelioma,TCGA,all,MESO_TCGA.cnlevel_all.rds,10.7908/C1DZ07R6
+MESO,Mesothelioma,TCGA,shallow,MESO_TCGA.cnlevel_shallow.rds,10.7908/C1DZ07R6
+OV,Ovarian serous cystadenocarcinoma,TCGA,all,OV_TCGA.cnlevel_all.rds,10.7908/C1P84B9Q
+OV,Ovarian serous cystadenocarcinoma,TCGA,deep,OV_TCGA.cnlevel_deep.rds,10.7908/C1P84B9Q
+OV,Ovarian serous cystadenocarcinoma,TCGA,shallow,OV_TCGA.cnlevel_shallow.rds,10.7908/C1P84B9Q
+PAAD,Pancreatic adenocarcinoma,TCGA,all,PAAD_TCGA.cnlevel_all.rds,10.7908/C1BP0271
+PAAD,Pancreatic adenocarcinoma,TCGA,deep,PAAD_TCGA.cnlevel_deep.rds,10.7908/C1BP0271
+PAAD,Pancreatic adenocarcinoma,TCGA,shallow,PAAD_TCGA.cnlevel_shallow.rds,10.7908/C1BP0271
+PCPG,Pheochromocytoma and Paraganglioma,TCGA,all,PCPG_TCGA.cnlevel_all.rds,10.7908/C19K49PX
+PCPG,Pheochromocytoma and Paraganglioma,TCGA,deep,PCPG_TCGA.cnlevel_deep.rds,10.7908/C19K49PX
+PCPG,Pheochromocytoma and Paraganglioma,TCGA,shallow,PCPG_TCGA.cnlevel_shallow.rds,10.7908/C19K49PX
+PRAD,Prostate adenocarcinoma,TCGA,all,PRAD_TCGA.cnlevel_all.rds,10.7908/C14Q7TFZ
+PRAD,Prostate adenocarcinoma,TCGA,deep,PRAD_TCGA.cnlevel_deep.rds,10.7908/C14Q7TFZ
+PRAD,Prostate adenocarcinoma,TCGA,shallow,PRAD_TCGA.cnlevel_shallow.rds,10.7908/C14Q7TFZ
+READ,Rectum adenocarcinoma,TCGA,all,READ_TCGA.cnlevel_all.rds,10.7908/C1ZS2VZB
+READ,Rectum adenocarcinoma,TCGA,deep,READ_TCGA.cnlevel_deep.rds,10.7908/C1ZS2VZB
+READ,Rectum adenocarcinoma,TCGA,shallow,READ_TCGA.cnlevel_shallow.rds,10.7908/C1ZS2VZB
+SARC,Sarcoma,TCGA,all,SARC_TCGA.cnlevel_all.rds,10.7908/C190238F
+SARC,Sarcoma,TCGA,deep,SARC_TCGA.cnlevel_deep.rds,10.7908/C190238F
+SARC,Sarcoma,TCGA,shallow,SARC_TCGA.cnlevel_shallow.rds,10.7908/C190238F
+SKCM,Skin Cutaneous Melanoma,TCGA,all,SKCM_TCGA.cnlevel_all.rds,10.7908/C1445KXQ
+SKCM,Skin Cutaneous Melanoma,TCGA,deep,SKCM_TCGA.cnlevel_deep.rds,10.7908/C1445KXQ
+SKCM,Skin Cutaneous Melanoma,TCGA,shallow,SKCM_TCGA.cnlevel_shallow.rds,10.7908/C1445KXQ
+STAD,Stomach adenocarcinoma,TCGA,all,STAD_TCGA.cnlevel_all.rds,10.7908/C1K073R3
+STAD,Stomach adenocarcinoma,TCGA,deep,STAD_TCGA.cnlevel_deep.rds,10.7908/C1K073R3
+STAD,Stomach adenocarcinoma,TCGA,shallow,STAD_TCGA.cnlevel_shallow.rds,10.7908/C1K073R3
+STES,Stomach and Esophageal carcinoma,TCGA,all,STES_TCGA.cnlevel_all.rds,10.7908/C1D50MFS
+STES,Stomach and Esophageal carcinoma,TCGA,deep,STES_TCGA.cnlevel_deep.rds,10.7908/C1D50MFS
+STES,Stomach and Esophageal carcinoma,TCGA,shallow,STES_TCGA.cnlevel_shallow.rds,10.7908/C1D50MFS
+TGCT,Testicular Germ Cell Tumors,TCGA,all,TGCT_TCGA.cnlevel_all.rds,10.7908/C1ZS2W06
+TGCT,Testicular Germ Cell Tumors,TCGA,deep,TGCT_TCGA.cnlevel_deep.rds,10.7908/C1ZS2W06
+TGCT,Testicular Germ Cell Tumors,TCGA,shallow,TGCT_TCGA.cnlevel_shallow.rds,10.7908/C1ZS2W06
+THCA,Thyroid carcinoma,TCGA,all,THCA_TCGA.cnlevel_all.rds,10.7908/C1SX6CQR
+THCA,Thyroid carcinoma,TCGA,deep,THCA_TCGA.cnlevel_deep.rds,10.7908/C1SX6CQR
+THCA,Thyroid carcinoma,TCGA,shallow,THCA_TCGA.cnlevel_shallow.rds,10.7908/C1SX6CQR
+THYM,Thymoma,TCGA,all,THYM_TCGA.cnlevel_all.rds,10.7908/C1CJ8D00
+THYM,Thymoma,TCGA,deep,THYM_TCGA.cnlevel_deep.rds,10.7908/C1CJ8D00
+THYM,Thymoma,TCGA,shallow,THYM_TCGA.cnlevel_shallow.rds,10.7908/C1CJ8D00
+UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,all,UCEC_TCGA.cnlevel_all.rds,10.7908/C16M36B7
+UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,deep,UCEC_TCGA.cnlevel_deep.rds,10.7908/C16M36B7
+UCEC,Uterine Corpus Endometrial Carcinoma,TCGA,shallow,UCEC_TCGA.cnlevel_shallow.rds,10.7908/C16M36B7
+UCS,Uterine Carcinosarcoma,TCGA,all,UCS_TCGA.cnlevel_all.rds,10.7908/C1W37VTX
+UCS,Uterine Carcinosarcoma,TCGA,deep,UCS_TCGA.cnlevel_deep.rds,10.7908/C1W37VTX
+UCS,Uterine Carcinosarcoma,TCGA,shallow,UCS_TCGA.cnlevel_shallow.rds,10.7908/C1W37VTX
+UVM,Uveal Melanoma,TCGA,all,UVM_TCGA.cnlevel_all.rds,10.7908/C1TX3DWK
+UVM,Uveal Melanoma,TCGA,deep,UVM_TCGA.cnlevel_deep.rds,10.7908/C1TX3DWK
+UVM,Uveal Melanoma,TCGA,shallow,UVM_TCGA.cnlevel_shallow.rds,10.7908/C1TX3DWK

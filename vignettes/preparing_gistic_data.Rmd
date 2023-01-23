@@ -147,7 +147,7 @@ df_data <- df_data |>
   dplyr::mutate(DOI = df_doi$DOI[match(Cohort, df_doi$Cohort)])
 
 df_data |>
-  dplyr::select(Cohort, FullName, Source, CopyNumberLevel, Filepath) |>
+  dplyr::select(Cohort, FullName, Source, CopyNumberLevel, Filepath, DOI) |>
   readr::write_csv(paste0(system.file(package = "TCGAgisticDB"), "/cohorts.csv"))
 ```
 
