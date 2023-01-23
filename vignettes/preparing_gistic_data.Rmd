@@ -125,6 +125,8 @@ Then we just create a csv that maps cohort to RDS file
 ```{r, eval=FALSE}
 df_studynames <- utils::read.csv(system.file("tcga_study_abbreviations.csv", package = "TCGAgisticDB"), strip.white = TRUE)
 
+df_doi <- utils::read.csv(system.file("doi.csv", package = "TCGAgisticDB"), strip.white = TRUE)
+
 outfile_dir = paste0(system.file("gistic_rds", package = "TCGAgisticDB"), "/")
 
 rds_files <- dir(outfile_dir, pattern = "rds")
@@ -138,7 +140,11 @@ df_data <-  dplyr::tibble(
 df_data <- df_data |>
   dplyr::mutate(FullName = df_studynames$study_name[match(Cohort, df_studynames$abbreviation)])
 
-df_data |> dplyr::group_by(Cohort) |> dplyr::filter(!"all" %in% CopyNumberLevel)
+#df_data |> dplyr::group_by(Cohort) |> dplyr::filter(!"all" %in% CopyNumberLevel)
+
+# Add doi
+df_data <- df_data |>
+  dplyr::mutate(DOI = df_doi$DOI[match(Cohort, df_doi$Cohort)])
 
 df_data |>
   dplyr::select(Cohort, FullName, Source, CopyNumberLevel, Filepath) |>
