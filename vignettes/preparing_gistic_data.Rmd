@@ -142,7 +142,7 @@ df_data |> dplyr::group_by(Cohort) |> dplyr::filter(!"all" %in% CopyNumberLevel)
 
 df_data |>
   dplyr::select(Cohort, FullName, Source, CopyNumberLevel, Filepath) |>
-  readr::write_csv(paste0(system.file(package = "TCGAgisticDB"), "/cohorts.tsv"))
+  readr::write_csv(paste0(system.file(package = "TCGAgisticDB"), "/cohorts.csv"))
 ```
 
 
